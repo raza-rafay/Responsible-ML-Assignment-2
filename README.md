@@ -4,7 +4,7 @@
 **GWID:** G40856805
 
 ## Purpose of the Analysis
-The purpose of this analysis is to build a COMPAS replacement risk prediction model and apply explainability methods to understand how the model makes decisions. Two models were trained: a logistic regression model (interpretable by design) and a gradient-boosted tree model (black-box). Explainability techniques including SHAP, LIME, and counterfactual explanations were used to interpret model predictions. Fairness was evaluated by comparing error rates such as false positive rate and false negative rate across racial groups.
+The purpose of this analysis is to build a COMPAS replacement risk prediction model and apply explainability methods to understand how the model makes decisions. Two models were trained: a logistic regression model and a gradient-boosted tree model. Explainability techniques including SHAP, LIME, and counterfactual explanations were used to interpret model predictions. Fairness was evaluated by comparing error rates such as false positive rate and false negative rate across racial groups.
 
 ## Python Libraries Used
 The following Python libraries were used in this assignment:
